@@ -14,8 +14,8 @@ function tempConvert(){
 
     }else if(fahrenheit === ''){
         fahrenheit = (parseFloat(celsius)-32) * 18;
-        
-    }else if(kelvin=== ''){
 
+    }else if(kelvin=== ''){
+        kelvin = (parseFloat(celsius)+ 273.15);
     }
 }
