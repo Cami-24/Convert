@@ -9,5 +9,11 @@ function tempConvert(){
     if(isNaN(celsius)|| isNaN(fahrenheit)||isNaN(kelvin)){
         alert('Ingrese un valor numérico');
         return
+    }else if(celsius === ''){
+        celsius = (fahrenheit - 32) / 1.8;
+    }else if(fahrenheit === ''){
+        fahrenheit = 
+    }else if(kelvin=== ''){
+
     }
 }
