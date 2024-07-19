@@ -18,4 +18,6 @@ function tempConvert(){
     }else if(kelvin=== ''){
         kelvin = (parseFloat(celsius)+ 273.15);
     }
+
+    document.getElementById('celsius').value = parseFloat(celsius).toFixed(2);
 }
