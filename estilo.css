@@ -12,3 +12,10 @@ body{
     width: 27rem;
     height: 30rem;
 }
+
+.form{
+    display: grid;
+    place-content: center;
+    box-sizing: border-box;
+    background-image: url(fondo.jpg);
+}
