@@ -11,8 +11,10 @@ function tempConvert(){
         return
     }else if(celsius === ''){
         celsius = (parseFloat(fahrenheit - 32)) / 1.8;
+
     }else if(fahrenheit === ''){
-        fahrenheit = 
+        fahrenheit = (parseFloat(celsius)-32) * 18;
+        
     }else if(kelvin=== ''){
 
     }
