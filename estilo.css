@@ -32,3 +32,14 @@ h1 {
     color:rgb(50, 36, 83);
     text-align: center;
 }
+
+input{
+    background: transparent;
+    width: 18rem;
+    height: 1.5rem;
+    font-size: 0.9rem;
+    border: 2px solid rgba(116,116,116,0.2);
+    border-radius: 1rem;
+    padding: 5px;
+    text-align: center;
+}
