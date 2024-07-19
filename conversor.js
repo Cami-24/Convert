@@ -10,7 +10,7 @@ function tempConvert(){
         alert('Ingrese un valor numérico');
         return
     }else if(celsius === ''){
-        celsius = (fahrenheit - 32) / 1.8;
+        celsius = (parseFloat(fahrenheit - 32)) / 1.8;
     }else if(fahrenheit === ''){
         fahrenheit = 
     }else if(kelvin=== ''){
