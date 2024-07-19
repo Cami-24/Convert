@@ -62,3 +62,17 @@ input {
     text-align: center;
     margin: 0 auto;
 }
+
+button{
+    margin-top: 2rem;
+    width: 19rem;
+    height: 2.4rem;
+    font-weight: bold;
+    border: 2px solid rgb(50, 36, 83);
+    border-radius: 1rem;
+    font-size: 1rem;
+    background-color: rgb(50, 36, 83);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(50, 36, 83);
+}
