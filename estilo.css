@@ -75,5 +75,6 @@ button{
     color: #fff;
     cursor: pointer;
     box-shadow: 0 0 5px rgb(50, 36, 83);
-    margin: 0 auto;
+    margin: 1rem auto;
+    
 }
