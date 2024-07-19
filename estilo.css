@@ -44,3 +44,10 @@ input{
     text-align: center;
     margin: 0 auto;
 }
+
+label{
+    font-size: 1.3rem;
+    padding: 0.3rem;
+    color: rgb(50, 36, 83);
+    font-weight: bold;
+}
