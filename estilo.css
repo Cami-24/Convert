@@ -11,6 +11,7 @@ body{
     box-shadow: 0 0 10px rgba(0,0,0,0.75);
     width: 27rem;
     height: 30rem;
+    overflow: hidden;
 }
 
 .form{
@@ -18,4 +19,9 @@ body{
     place-content: center;
     box-sizing: border-box;
     background-image: url(fondo.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
