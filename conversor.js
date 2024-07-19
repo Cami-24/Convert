@@ -20,4 +20,6 @@ function tempConvert(){
     }
 
     document.getElementById('celsius').value = parseFloat(celsius).toFixed(2);
+    document.getElementById('fahrenheit').value = parseFloat(fahrenheit).toFixed(2);
+    document.getElementById('kelvin').value = parseFloat(kelvin).toFixed(2);
 }
